@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E824C32E0C54F100775F4A /* TheGreatEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824BB2E0C54F100775F4A /* TheGreatEscape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E824C42E0C54F100775F4A /* Keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824BE2E0C54F100775F4A /* Keyboard.h */; };
+		23E824C52E0C54F100775F4A /* Kempston.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824BD2E0C54F100775F4A /* Kempston.h */; };
+		23E824C62E0C54F100775F4A /* Spectrum.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824C02E0C54F100775F4A /* Spectrum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E824C72E0C54F100775F4A /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824BF2E0C54F100775F4A /* Screen.h */; };
+		23E824C82E0C54F100775F4A /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824B92E0C54F100775F4A /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E825172E0C551200775F4A /* Zoombox.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824E22E0C551200775F4A /* Zoombox.c */; };
+		23E825182E0C551200775F4A /* Utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824E12E0C551200775F4A /* Utils.c */; };
+		23E825192E0C551200775F4A /* ItemBitmaps.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CD2E0C551200775F4A /* ItemBitmaps.c */; };
+		23E8251A2E0C551200775F4A /* ExteriorTiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824C92E0C551200775F4A /* ExteriorTiles.c */; };
+		23E8251B2E0C551200775F4A /* Messages.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DE2E0C551200775F4A /* Messages.c */; };
+		23E8251C2E0C551200775F4A /* Input.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DB2E0C551200775F4A /* Input.c */; };
+		23E8251D2E0C551200775F4A /* Masks.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CF2E0C551200775F4A /* Masks.c */; };
+		23E8251E2E0C551200775F4A /* Main.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DC2E0C551200775F4A /* Main.c */; };
+		23E8251F2E0C551200775F4A /* Keyboard.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E825122E0C551200775F4A /* Keyboard.c */; };
+		23E825202E0C551200775F4A /* Events.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DA2E0C551200775F4A /* Events.c */; };
+		23E825212E0C551200775F4A /* Screen.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DF2E0C551200775F4A /* Screen.c */; };
+		23E825222E0C551200775F4A /* Map.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CE2E0C551200775F4A /* Map.c */; };
+		23E825232E0C551200775F4A /* Debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D92E0C551200775F4A /* Debug.c */; };
+		23E825242E0C551200775F4A /* Text.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824E02E0C551200775F4A /* Text.c */; };
+		23E825252E0C551200775F4A /* Music.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D02E0C551200775F4A /* Music.c */; };
+		23E825262E0C551200775F4A /* StaticTiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D52E0C551200775F4A /* StaticTiles.c */; };
+		23E825272E0C551200775F4A /* InteriorTiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CC2E0C551200775F4A /* InteriorTiles.c */; };
+		23E825282E0C551200775F4A /* Spectrum.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E825142E0C551200775F4A /* Spectrum.c */; };
+		23E825292E0C551200775F4A /* InteriorObjectDefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CB2E0C551200775F4A /* InteriorObjectDefs.c */; };
+		23E8252A2E0C551200775F4A /* Font.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824CA2E0C551200775F4A /* Font.c */; };
+		23E8252B2E0C551200775F4A /* Create.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D82E0C551200775F4A /* Create.c */; };
+		23E8252C2E0C551200775F4A /* SpriteBitmaps.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D22E0C551200775F4A /* SpriteBitmaps.c */; };
+		23E8252D2E0C551200775F4A /* Sprites.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D32E0C551200775F4A /* Sprites.c */; };
+		23E8252E2E0C551200775F4A /* Menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824DD2E0C551200775F4A /* Menu.c */; };
+		23E8252F2E0C551200775F4A /* SuperTiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D62E0C551200775F4A /* SuperTiles.c */; };
+		23E825302E0C551200775F4A /* StaticGraphics.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D42E0C551200775F4A /* StaticGraphics.c */; };
+		23E825312E0C551200775F4A /* Screen.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E825132E0C551200775F4A /* Screen.c */; };
+		23E825322E0C551200775F4A /* Kempston.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E825112E0C551200775F4A /* Kempston.c */; };
+		23E825332E0C551200775F4A /* Save.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824E42E0C551200775F4A /* Save.c */; };
+		23E825342E0C551200775F4A /* RoomDefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E824D12E0C551200775F4A /* RoomDefs.c */; };
+		23E825352E0C551200775F4A /* Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824E92E0C551200775F4A /* Events.h */; };
+		23E825362E0C551200775F4A /* Rooms.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FA2E0C551200775F4A /* Rooms.h */; };
+		23E825372E0C551200775F4A /* Messages.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F62E0C551200775F4A /* Messages.h */; };
+		23E825382E0C551200775F4A /* TGEObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825042E0C551200775F4A /* TGEObject.h */; };
+		23E825392E0C551200775F4A /* RoomDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F92E0C551200775F4A /* RoomDefs.h */; };
+		23E8253A2E0C551200775F4A /* Asserts.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824E62E0C551200775F4A /* Asserts.h */; };
+		23E8253B2E0C551200775F4A /* StaticTiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825012E0C551200775F4A /* StaticTiles.h */; };
+		23E8253C2E0C551200775F4A /* Routes.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FB2E0C551200775F4A /* Routes.h */; };
+		23E8253D2E0C551200775F4A /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FC2E0C551200775F4A /* Screen.h */; };
+		23E8253E2E0C551200775F4A /* Zoombox.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825082E0C551200775F4A /* Zoombox.h */; };
+		23E8253F2E0C551200775F4A /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824E72E0C551200775F4A /* Debug.h */; };
+		23E825402E0C551200775F4A /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825072E0C551200775F4A /* Utils.h */; };
+		23E825412E0C551200775F4A /* Text.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825032E0C551200775F4A /* Text.h */; };
+		23E825422E0C551200775F4A /* SpriteBitmaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FD2E0C551200775F4A /* SpriteBitmaps.h */; };
+		23E825432E0C551200775F4A /* Items.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F12E0C551200775F4A /* Items.h */; };
+		23E825442E0C551200775F4A /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824EC2E0C551200775F4A /* Input.h */; };
+		23E825452E0C551200775F4A /* State.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FF2E0C551200775F4A /* State.h */; };
+		23E825462E0C551200775F4A /* Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F32E0C551200775F4A /* Map.h */; };
+		23E825472E0C551200775F4A /* InteriorObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824EE2E0C551200775F4A /* InteriorObjects.h */; };
+		23E825482E0C551200775F4A /* Music.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F72E0C551200775F4A /* Music.h */; };
+		23E825492E0C551200775F4A /* Pixels.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F82E0C551200775F4A /* Pixels.h */; };
+		23E8254A2E0C551200775F4A /* StaticGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825002E0C551200775F4A /* StaticGraphics.h */; };
+		23E8254B2E0C551200775F4A /* ItemBitmaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F02E0C551200775F4A /* ItemBitmaps.h */; };
+		23E8254C2E0C551200775F4A /* Sprites.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824FE2E0C551200775F4A /* Sprites.h */; };
+		23E8254D2E0C551200775F4A /* Tiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825052E0C551200775F4A /* Tiles.h */; };
+		23E8254E2E0C551200775F4A /* Menu.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F52E0C551200775F4A /* Menu.h */; };
+		23E8254F2E0C551200775F4A /* Masks.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F42E0C551200775F4A /* Masks.h */; };
+		23E825502E0C551200775F4A /* SuperTiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825022E0C551200775F4A /* SuperTiles.h */; };
+		23E825512E0C551200775F4A /* ExteriorTiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824EA2E0C551200775F4A /* ExteriorTiles.h */; };
+		23E825522E0C551200775F4A /* Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8250D2E0C551200775F4A /* Macros.h */; };
+		23E825532E0C551200775F4A /* Doors.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824E82E0C551200775F4A /* Doors.h */; };
+		23E825542E0C551200775F4A /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E825062E0C551200775F4A /* Types.h */; };
+		23E825552E0C551200775F4A /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824EB2E0C551200775F4A /* Font.h */; };
+		23E825562E0C551200775F4A /* InteriorTiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824EF2E0C551200775F4A /* InteriorTiles.h */; };
+		23E825572E0C551200775F4A /* InteriorObjectDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824ED2E0C551200775F4A /* InteriorObjectDefs.h */; };
+		23E825582E0C551200775F4A /* Main.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824F22E0C551200775F4A /* Main.h */; };
+		23E825C52E0C557900775F4A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 23E825602E0C557900775F4A /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23E824AF2E0C545400775F4A /* TGEiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGEiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E824B92E0C54F100775F4A /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		23E824BB2E0C54F100775F4A /* TheGreatEscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheGreatEscape.h; sourceTree = "<group>"; };
+		23E824BD2E0C54F100775F4A /* Kempston.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kempston.h; sourceTree = "<group>"; };
+		23E824BE2E0C54F100775F4A /* Keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		23E824BF2E0C54F100775F4A /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		23E824C02E0C54F100775F4A /* Spectrum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spectrum.h; sourceTree = "<group>"; };
+		23E824C92E0C551200775F4A /* ExteriorTiles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ExteriorTiles.c; sourceTree = "<group>"; };
+		23E824CA2E0C551200775F4A /* Font.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Font.c; sourceTree = "<group>"; };
+		23E824CB2E0C551200775F4A /* InteriorObjectDefs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteriorObjectDefs.c; sourceTree = "<group>"; };
+		23E824CC2E0C551200775F4A /* InteriorTiles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InteriorTiles.c; sourceTree = "<group>"; };
+		23E824CD2E0C551200775F4A /* ItemBitmaps.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ItemBitmaps.c; sourceTree = "<group>"; };
+		23E824CE2E0C551200775F4A /* Map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Map.c; sourceTree = "<group>"; };
+		23E824CF2E0C551200775F4A /* Masks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Masks.c; sourceTree = "<group>"; };
+		23E824D02E0C551200775F4A /* Music.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Music.c; sourceTree = "<group>"; };
+		23E824D12E0C551200775F4A /* RoomDefs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RoomDefs.c; sourceTree = "<group>"; };
+		23E824D22E0C551200775F4A /* SpriteBitmaps.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SpriteBitmaps.c; sourceTree = "<group>"; };
+		23E824D32E0C551200775F4A /* Sprites.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sprites.c; sourceTree = "<group>"; };
+		23E824D42E0C551200775F4A /* StaticGraphics.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticGraphics.c; sourceTree = "<group>"; };
+		23E824D52E0C551200775F4A /* StaticTiles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticTiles.c; sourceTree = "<group>"; };
+		23E824D62E0C551200775F4A /* SuperTiles.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SuperTiles.c; sourceTree = "<group>"; };
+		23E824D82E0C551200775F4A /* Create.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Create.c; sourceTree = "<group>"; };
+		23E824D92E0C551200775F4A /* Debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Debug.c; sourceTree = "<group>"; };
+		23E824DA2E0C551200775F4A /* Events.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Events.c; sourceTree = "<group>"; };
+		23E824DB2E0C551200775F4A /* Input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Input.c; sourceTree = "<group>"; };
+		23E824DC2E0C551200775F4A /* Main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Main.c; sourceTree = "<group>"; };
+		23E824DD2E0C551200775F4A /* Menu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Menu.c; sourceTree = "<group>"; };
+		23E824DE2E0C551200775F4A /* Messages.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Messages.c; sourceTree = "<group>"; };
+		23E824DF2E0C551200775F4A /* Screen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Screen.c; sourceTree = "<group>"; };
+		23E824E02E0C551200775F4A /* Text.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Text.c; sourceTree = "<group>"; };
+		23E824E12E0C551200775F4A /* Utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Utils.c; sourceTree = "<group>"; };
+		23E824E22E0C551200775F4A /* Zoombox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Zoombox.c; sourceTree = "<group>"; };
+		23E824E42E0C551200775F4A /* Save.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Save.c; sourceTree = "<group>"; };
+		23E824E62E0C551200775F4A /* Asserts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Asserts.h; sourceTree = "<group>"; };
+		23E824E72E0C551200775F4A /* Debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		23E824E82E0C551200775F4A /* Doors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doors.h; sourceTree = "<group>"; };
+		23E824E92E0C551200775F4A /* Events.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		23E824EA2E0C551200775F4A /* ExteriorTiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExteriorTiles.h; sourceTree = "<group>"; };
+		23E824EB2E0C551200775F4A /* Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
+		23E824EC2E0C551200775F4A /* Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		23E824ED2E0C551200775F4A /* InteriorObjectDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteriorObjectDefs.h; sourceTree = "<group>"; };
+		23E824EE2E0C551200775F4A /* InteriorObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteriorObjects.h; sourceTree = "<group>"; };
+		23E824EF2E0C551200775F4A /* InteriorTiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteriorTiles.h; sourceTree = "<group>"; };
+		23E824F02E0C551200775F4A /* ItemBitmaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemBitmaps.h; sourceTree = "<group>"; };
+		23E824F12E0C551200775F4A /* Items.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		23E824F22E0C551200775F4A /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		23E824F32E0C551200775F4A /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		23E824F42E0C551200775F4A /* Masks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masks.h; sourceTree = "<group>"; };
+		23E824F52E0C551200775F4A /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		23E824F62E0C551200775F4A /* Messages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
+		23E824F72E0C551200775F4A /* Music.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		23E824F82E0C551200775F4A /* Pixels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pixels.h; sourceTree = "<group>"; };
+		23E824F92E0C551200775F4A /* RoomDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomDefs.h; sourceTree = "<group>"; };
+		23E824FA2E0C551200775F4A /* Rooms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rooms.h; sourceTree = "<group>"; };
+		23E824FB2E0C551200775F4A /* Routes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Routes.h; sourceTree = "<group>"; };
+		23E824FC2E0C551200775F4A /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		23E824FD2E0C551200775F4A /* SpriteBitmaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteBitmaps.h; sourceTree = "<group>"; };
+		23E824FE2E0C551200775F4A /* Sprites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprites.h; sourceTree = "<group>"; };
+		23E824FF2E0C551200775F4A /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		23E825002E0C551200775F4A /* StaticGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticGraphics.h; sourceTree = "<group>"; };
+		23E825012E0C551200775F4A /* StaticTiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticTiles.h; sourceTree = "<group>"; };
+		23E825022E0C551200775F4A /* SuperTiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperTiles.h; sourceTree = "<group>"; };
+		23E825032E0C551200775F4A /* Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		23E825042E0C551200775F4A /* TGEObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGEObject.h; sourceTree = "<group>"; };
+		23E825052E0C551200775F4A /* Tiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tiles.h; sourceTree = "<group>"; };
+		23E825062E0C551200775F4A /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		23E825072E0C551200775F4A /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		23E825082E0C551200775F4A /* Zoombox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zoombox.h; sourceTree = "<group>"; };
+		23E8250D2E0C551200775F4A /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		23E825112E0C551200775F4A /* Kempston.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Kempston.c; sourceTree = "<group>"; };
+		23E825122E0C551200775F4A /* Keyboard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Keyboard.c; sourceTree = "<group>"; };
+		23E825132E0C551200775F4A /* Screen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Screen.c; sourceTree = "<group>"; };
+		23E825142E0C551200775F4A /* Spectrum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Spectrum.c; sourceTree = "<group>"; };
+		23E825602E0C557900775F4A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		23E824B12E0C545400775F4A /* TGEiOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TGEiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E824AC2E0C545400775F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E824A52E0C545400775F4A = {
+			isa = PBXGroup;
+			children = (
+				23E825C22E0C557900775F4A /* platform */,
+				23E825162E0C551200775F4A /* libraries */,
+				23E824C22E0C54F100775F4A /* include */,
+				23E824B12E0C545400775F4A /* TGEiOS */,
+				23E824B02E0C545400775F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23E824B02E0C545400775F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23E824AF2E0C545400775F4A /* TGEiOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23E824BA2E0C54F100775F4A /* C99 */ = {
+			isa = PBXGroup;
+			children = (
+				23E824B92E0C54F100775F4A /* Types.h */,
+			);
+			path = C99;
+			sourceTree = "<group>";
+		};
+		23E824BC2E0C54F100775F4A /* TheGreatEscape */ = {
+			isa = PBXGroup;
+			children = (
+				23E824BB2E0C54F100775F4A /* TheGreatEscape.h */,
+			);
+			path = TheGreatEscape;
+			sourceTree = "<group>";
+		};
+		23E824C12E0C54F100775F4A /* ZXSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				23E824BD2E0C54F100775F4A /* Kempston.h */,
+				23E824BE2E0C54F100775F4A /* Keyboard.h */,
+				23E824BF2E0C54F100775F4A /* Screen.h */,
+				23E824C02E0C54F100775F4A /* Spectrum.h */,
+			);
+			path = ZXSpectrum;
+			sourceTree = "<group>";
+		};
+		23E824C22E0C54F100775F4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				23E824BA2E0C54F100775F4A /* C99 */,
+				23E824BC2E0C54F100775F4A /* TheGreatEscape */,
+				23E824C12E0C54F100775F4A /* ZXSpectrum */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = SOURCE_ROOT;
+		};
+		23E824D72E0C551200775F4A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				23E824C92E0C551200775F4A /* ExteriorTiles.c */,
+				23E824CA2E0C551200775F4A /* Font.c */,
+				23E824CB2E0C551200775F4A /* InteriorObjectDefs.c */,
+				23E824CC2E0C551200775F4A /* InteriorTiles.c */,
+				23E824CD2E0C551200775F4A /* ItemBitmaps.c */,
+				23E824CE2E0C551200775F4A /* Map.c */,
+				23E824CF2E0C551200775F4A /* Masks.c */,
+				23E824D02E0C551200775F4A /* Music.c */,
+				23E824D12E0C551200775F4A /* RoomDefs.c */,
+				23E824D22E0C551200775F4A /* SpriteBitmaps.c */,
+				23E824D32E0C551200775F4A /* Sprites.c */,
+				23E824D42E0C551200775F4A /* StaticGraphics.c */,
+				23E824D52E0C551200775F4A /* StaticTiles.c */,
+				23E824D62E0C551200775F4A /* SuperTiles.c */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		23E824E32E0C551200775F4A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				23E824D82E0C551200775F4A /* Create.c */,
+				23E824D92E0C551200775F4A /* Debug.c */,
+				23E824DA2E0C551200775F4A /* Events.c */,
+				23E824DB2E0C551200775F4A /* Input.c */,
+				23E824DC2E0C551200775F4A /* Main.c */,
+				23E824DD2E0C551200775F4A /* Menu.c */,
+				23E824DE2E0C551200775F4A /* Messages.c */,
+				23E824DF2E0C551200775F4A /* Screen.c */,
+				23E824E02E0C551200775F4A /* Text.c */,
+				23E824E12E0C551200775F4A /* Utils.c */,
+				23E824E22E0C551200775F4A /* Zoombox.c */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		23E824E52E0C551200775F4A /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				23E824E42E0C551200775F4A /* Save.c */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		23E825092E0C551200775F4A /* TheGreatEscape */ = {
+			isa = PBXGroup;
+			children = (
+				23E824E62E0C551200775F4A /* Asserts.h */,
+				23E824E72E0C551200775F4A /* Debug.h */,
+				23E824E82E0C551200775F4A /* Doors.h */,
+				23E824E92E0C551200775F4A /* Events.h */,
+				23E824EA2E0C551200775F4A /* ExteriorTiles.h */,
+				23E824EB2E0C551200775F4A /* Font.h */,
+				23E824EC2E0C551200775F4A /* Input.h */,
+				23E824ED2E0C551200775F4A /* InteriorObjectDefs.h */,
+				23E824EE2E0C551200775F4A /* InteriorObjects.h */,
+				23E824EF2E0C551200775F4A /* InteriorTiles.h */,
+				23E824F02E0C551200775F4A /* ItemBitmaps.h */,
+				23E824F12E0C551200775F4A /* Items.h */,
+				23E824F22E0C551200775F4A /* Main.h */,
+				23E824F32E0C551200775F4A /* Map.h */,
+				23E824F42E0C551200775F4A /* Masks.h */,
+				23E824F52E0C551200775F4A /* Menu.h */,
+				23E824F62E0C551200775F4A /* Messages.h */,
+				23E824F72E0C551200775F4A /* Music.h */,
+				23E824F82E0C551200775F4A /* Pixels.h */,
+				23E824F92E0C551200775F4A /* RoomDefs.h */,
+				23E824FA2E0C551200775F4A /* Rooms.h */,
+				23E824FB2E0C551200775F4A /* Routes.h */,
+				23E824FC2E0C551200775F4A /* Screen.h */,
+				23E824FD2E0C551200775F4A /* SpriteBitmaps.h */,
+				23E824FE2E0C551200775F4A /* Sprites.h */,
+				23E824FF2E0C551200775F4A /* State.h */,
+				23E825002E0C551200775F4A /* StaticGraphics.h */,
+				23E825012E0C551200775F4A /* StaticTiles.h */,
+				23E825022E0C551200775F4A /* SuperTiles.h */,
+				23E825032E0C551200775F4A /* Text.h */,
+				23E825042E0C551200775F4A /* TGEObject.h */,
+				23E825052E0C551200775F4A /* Tiles.h */,
+				23E825062E0C551200775F4A /* Types.h */,
+				23E825072E0C551200775F4A /* Utils.h */,
+				23E825082E0C551200775F4A /* Zoombox.h */,
+			);
+			path = TheGreatEscape;
+			sourceTree = "<group>";
+		};
+		23E8250A2E0C551200775F4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				23E825092E0C551200775F4A /* TheGreatEscape */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		23E8250C2E0C551200775F4A /* TheGreatEscape */ = {
+			isa = PBXGroup;
+			children = (
+				23E824D72E0C551200775F4A /* Data */,
+				23E824E32E0C551200775F4A /* Engine */,
+				23E824E52E0C551200775F4A /* Extend */,
+				23E8250A2E0C551200775F4A /* include */,
+			);
+			path = TheGreatEscape;
+			sourceTree = "<group>";
+		};
+		23E8250E2E0C551200775F4A /* ZXSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				23E8250D2E0C551200775F4A /* Macros.h */,
+			);
+			path = ZXSpectrum;
+			sourceTree = "<group>";
+		};
+		23E8250F2E0C551200775F4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				23E8250E2E0C551200775F4A /* ZXSpectrum */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		23E825152E0C551200775F4A /* ZXSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				23E8250F2E0C551200775F4A /* include */,
+				23E825112E0C551200775F4A /* Kempston.c */,
+				23E825122E0C551200775F4A /* Keyboard.c */,
+				23E825132E0C551200775F4A /* Screen.c */,
+				23E825142E0C551200775F4A /* Spectrum.c */,
+			);
+			path = ZXSpectrum;
+			sourceTree = "<group>";
+		};
+		23E825162E0C551200775F4A /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				23E8250C2E0C551200775F4A /* TheGreatEscape */,
+				23E825152E0C551200775F4A /* ZXSpectrum */,
+			);
+			name = libraries;
+			path = ../libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		23E825642E0C557900775F4A /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				23E825602E0C557900775F4A /* main.c */,
+			);
+			path = generic;
+			sourceTree = "<group>";
+		};
+		23E825C22E0C557900775F4A /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				23E825642E0C557900775F4A /* generic */,
+			);
+			name = platform;
+			path = ../platform;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23E824AA2E0C545400775F4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E824C32E0C54F100775F4A /* TheGreatEscape.h in Headers */,
+				23E825352E0C551200775F4A /* Events.h in Headers */,
+				23E825362E0C551200775F4A /* Rooms.h in Headers */,
+				23E825372E0C551200775F4A /* Messages.h in Headers */,
+				23E825382E0C551200775F4A /* TGEObject.h in Headers */,
+				23E825392E0C551200775F4A /* RoomDefs.h in Headers */,
+				23E8253A2E0C551200775F4A /* Asserts.h in Headers */,
+				23E8253B2E0C551200775F4A /* StaticTiles.h in Headers */,
+				23E8253C2E0C551200775F4A /* Routes.h in Headers */,
+				23E8253D2E0C551200775F4A /* Screen.h in Headers */,
+				23E8253E2E0C551200775F4A /* Zoombox.h in Headers */,
+				23E8253F2E0C551200775F4A /* Debug.h in Headers */,
+				23E825402E0C551200775F4A /* Utils.h in Headers */,
+				23E825412E0C551200775F4A /* Text.h in Headers */,
+				23E825422E0C551200775F4A /* SpriteBitmaps.h in Headers */,
+				23E825432E0C551200775F4A /* Items.h in Headers */,
+				23E825442E0C551200775F4A /* Input.h in Headers */,
+				23E825452E0C551200775F4A /* State.h in Headers */,
+				23E825462E0C551200775F4A /* Map.h in Headers */,
+				23E825472E0C551200775F4A /* InteriorObjects.h in Headers */,
+				23E825482E0C551200775F4A /* Music.h in Headers */,
+				23E825492E0C551200775F4A /* Pixels.h in Headers */,
+				23E8254A2E0C551200775F4A /* StaticGraphics.h in Headers */,
+				23E8254B2E0C551200775F4A /* ItemBitmaps.h in Headers */,
+				23E8254C2E0C551200775F4A /* Sprites.h in Headers */,
+				23E8254D2E0C551200775F4A /* Tiles.h in Headers */,
+				23E8254E2E0C551200775F4A /* Menu.h in Headers */,
+				23E8254F2E0C551200775F4A /* Masks.h in Headers */,
+				23E825502E0C551200775F4A /* SuperTiles.h in Headers */,
+				23E825512E0C551200775F4A /* ExteriorTiles.h in Headers */,
+				23E825522E0C551200775F4A /* Macros.h in Headers */,
+				23E825532E0C551200775F4A /* Doors.h in Headers */,
+				23E825542E0C551200775F4A /* Types.h in Headers */,
+				23E825552E0C551200775F4A /* Font.h in Headers */,
+				23E825562E0C551200775F4A /* InteriorTiles.h in Headers */,
+				23E825572E0C551200775F4A /* InteriorObjectDefs.h in Headers */,
+				23E825582E0C551200775F4A /* Main.h in Headers */,
+				23E824C42E0C54F100775F4A /* Keyboard.h in Headers */,
+				23E824C52E0C54F100775F4A /* Kempston.h in Headers */,
+				23E824C62E0C54F100775F4A /* Spectrum.h in Headers */,
+				23E824C72E0C54F100775F4A /* Screen.h in Headers */,
+				23E824C82E0C54F100775F4A /* Types.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23E824AE2E0C545400775F4A /* TGEiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E824B62E0C545400775F4A /* Build configuration list for PBXNativeTarget "TGEiOS" */;
+			buildPhases = (
+				23E824AA2E0C545400775F4A /* Headers */,
+				23E824AB2E0C545400775F4A /* Sources */,
+				23E824AC2E0C545400775F4A /* Frameworks */,
+				23E824AD2E0C545400775F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				23E824B12E0C545400775F4A /* TGEiOS */,
+			);
+			name = TGEiOS;
+			packageProductDependencies = (
+			);
+			productName = TGEiOS;
+			productReference = 23E824AF2E0C545400775F4A /* TGEiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23E824A62E0C545400775F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					23E824AE2E0C545400775F4A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 23E824A92E0C545400775F4A /* Build configuration list for PBXProject "TGEiOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23E824A52E0C545400775F4A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23E824B02E0C545400775F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E824AE2E0C545400775F4A /* TGEiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23E824AD2E0C545400775F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E824AB2E0C545400775F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E825172E0C551200775F4A /* Zoombox.c in Sources */,
+				23E825182E0C551200775F4A /* Utils.c in Sources */,
+				23E825192E0C551200775F4A /* ItemBitmaps.c in Sources */,
+				23E8251A2E0C551200775F4A /* ExteriorTiles.c in Sources */,
+				23E8251B2E0C551200775F4A /* Messages.c in Sources */,
+				23E8251C2E0C551200775F4A /* Input.c in Sources */,
+				23E8251D2E0C551200775F4A /* Masks.c in Sources */,
+				23E8251E2E0C551200775F4A /* Main.c in Sources */,
+				23E825C52E0C557900775F4A /* main.c in Sources */,
+				23E8251F2E0C551200775F4A /* Keyboard.c in Sources */,
+				23E825202E0C551200775F4A /* Events.c in Sources */,
+				23E825212E0C551200775F4A /* Screen.c in Sources */,
+				23E825222E0C551200775F4A /* Map.c in Sources */,
+				23E825232E0C551200775F4A /* Debug.c in Sources */,
+				23E825242E0C551200775F4A /* Text.c in Sources */,
+				23E825252E0C551200775F4A /* Music.c in Sources */,
+				23E825262E0C551200775F4A /* StaticTiles.c in Sources */,
+				23E825272E0C551200775F4A /* InteriorTiles.c in Sources */,
+				23E825282E0C551200775F4A /* Spectrum.c in Sources */,
+				23E825292E0C551200775F4A /* InteriorObjectDefs.c in Sources */,
+				23E8252A2E0C551200775F4A /* Font.c in Sources */,
+				23E8252B2E0C551200775F4A /* Create.c in Sources */,
+				23E8252C2E0C551200775F4A /* SpriteBitmaps.c in Sources */,
+				23E8252D2E0C551200775F4A /* Sprites.c in Sources */,
+				23E8252E2E0C551200775F4A /* Menu.c in Sources */,
+				23E8252F2E0C551200775F4A /* SuperTiles.c in Sources */,
+				23E825302E0C551200775F4A /* StaticGraphics.c in Sources */,
+				23E825312E0C551200775F4A /* Screen.c in Sources */,
+				23E825322E0C551200775F4A /* Kempston.c in Sources */,
+				23E825332E0C551200775F4A /* Save.c in Sources */,
+				23E825342E0C551200775F4A /* RoomDefs.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23E824B42E0C545400775F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UP6DAXD8L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23E824B52E0C545400775F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4UP6DAXD8L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23E824B72E0C545400775F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP6DAXD8L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../libraries/TheGreatEscape/include,
+					../libraries/ZXSpectrum/include,
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjf.TGEiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		23E824B82E0C545400775F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP6DAXD8L;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../libraries/TheGreatEscape/include,
+					../libraries/ZXSpectrum/include,
+				);
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjf.TGEiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E824A92E0C545400775F4A /* Build configuration list for PBXProject "TGEiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E824B42E0C545400775F4A /* Debug */,
+				23E824B52E0C545400775F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E824B62E0C545400775F4A /* Build configuration list for PBXNativeTarget "TGEiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E824B72E0C545400775F4A /* Debug */,
+				23E824B82E0C545400775F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23E824A62E0C545400775F4A /* Project object */;
+}
